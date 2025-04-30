@@ -9,10 +9,10 @@ Enhance your cryptocurrency security research with CryptoVault Analyzer Pro — 
 install python package:
 
 # windows package's
-pip install hdwallet
+<pip install hdwallet
 pip install colorthon
 pip install requests
-pip install requests-random-user-agent
+pip install requests-random-user-agent>
 
 
 👉 __Get Latest Build__
