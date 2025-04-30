@@ -1,4 +1,4 @@
-title MMDRZA.COM - BTC & ETH HD Address
+BTC & ETH HD Address
 Pushd "%~dp0"
 :loop
 pip install colorthon
