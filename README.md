@@ -14,6 +14,7 @@ pip install colorthon
 pip install requests
 pip install requests-random-user-agent**
 
+python **singleWallet.py**
 
 👉 __Get Latest Build__
 💡 __Project Overview__
