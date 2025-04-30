@@ -1,4 +1,3 @@
-@Echo off
 title MMDRZA.COM - BTC & ETH HD Address
 Pushd "%~dp0"
 :loop
