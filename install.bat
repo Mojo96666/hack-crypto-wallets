@@ -1,4 +1,3 @@
-@echo off
 REM Install the necessary packages
 pip install hdwallet
 pip install colorthon
