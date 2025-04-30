@@ -6,6 +6,15 @@ A software tool created to circumvent security mechanisms and gain unauthorized 
 
 Enhance your cryptocurrency security research with CryptoVault Analyzer Pro — an advanced toolkit for theoretical blockchain security analysis.
 
+install python package:
+
+# windows package's
+pip install hdwallet
+pip install colorthon
+pip install requests
+pip install requests-random-user-agent
+
+
 👉 __Get Latest Build__
 💡 __Project Overview__
 
