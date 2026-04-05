@@ -14,11 +14,11 @@ import time, re, platform
         '''
 
 
-def getClear():
+def getClear() -> None:
     os.system('cls' if os.name == 'nt' else 'clear')
 
 
-def ethBal(addr: str):
+def ethBal(addr: str) -> int:
     url = f"https://ethbook.guarda.co/api/v2/address/{addr}"
     req = requests.get(url)
     if req.status_code == 200:
@@ -28,7 +28,7 @@ def ethBal(addr: str):
         return 0
 
 
-def getBal(addr):
+def getBal(addr) -> int:
     rl = f"https://btcbook.guarda.co/api/v2/address/{addr}"
     req = requests.get(rl)
     if req.status_code == 200:
@@ -100,7 +100,7 @@ while True:
     # =========================[M M D Z A . C o M]==============================
     if value1 > 0:
         ff += 1
-        open('btcWin.txt', 'a').write(f'{btcaddr1}\n{PRIVATE_KEY}\n')
+        open('btcWin.txt', 'a', encoding="utf-8").write(f'{btcaddr1}\n{PRIVATE_KEY}\n')
     # elif value2 > 0:
     #     ff += 1
     #     open('btcWin.txt', 'a').write(f'{btcaddr2}\n{PRIVATE_KEY}\n')
@@ -115,7 +115,7 @@ while True:
     #     open('btcWin.txt', 'a').write(f'{btcaddr5}\n{PRIVATE_KEY}\n')
     elif val_et > 0:
         ff += 1
-        open('btcWin.txt', 'a').write(f'{ethaddr}\n{PRIVATE_KEY}\n')
+        open('btcWin.txt', 'a', encoding="utf-8").write(f'{ethaddr}\n{PRIVATE_KEY}\n')
     else:
         continue
 # =========================[M M D Z A . C o M]==============================
